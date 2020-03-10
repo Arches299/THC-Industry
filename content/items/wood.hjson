@@ -1,0 +1,8 @@
+{
+  type: material
+  name: Wood
+  descrption: A pile of wood.Many junior things need it.
+  color: C9631A
+  flammability: 0.5
+  radioactivity: 0
+}

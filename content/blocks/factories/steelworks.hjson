@@ -1,0 +1,33 @@
+{
+  type: GenericSmelter
+  name: Steel
+  description: Provides steel.This factory is very important.Spends much water.
+  health: 300
+  size: 2
+  requirements:
+  [
+    refined-iron/100
+    copper/50
+    lead/100
+    graphite/50
+  ]
+  cosumes:
+  {
+    items: [
+      refined-iron/1
+      coal/2
+    ]
+    liquid: water/0.25
+  }
+  power: {
+    usage: 30.0
+    buffered: false
+  }
+  craftTime: 120
+  outputItem: steel/1
+  hasItems: true
+  flameColor: 5B5B5B
+  category: crafting
+  research: iron-refiner
+  buildCostMultiplier: 2
+}

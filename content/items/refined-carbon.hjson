@@ -1,0 +1,8 @@
+{
+  type: material
+  name: Refined carbon
+  descrption: Refined carbon.
+  color: 242424
+  radioactivity: 0
+  cost: 3
+}

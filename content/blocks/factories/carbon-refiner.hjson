@@ -1,0 +1,31 @@
+{
+  type: GenericSmelter
+  name: Carbon refiner
+  description: Collect carbon from coal and compress them.
+  health: 120
+  size: 2
+  requirements:
+  [
+    wood/30
+    copper/50
+    lead/10
+    graphite/20
+  ]
+  cosumes:
+  {
+    items: [
+      coal/5
+    ]
+  }
+  power: {
+    usage: 15
+    buffered: false
+  }
+  craftTime: 60
+  outputItem: refined-carbon/1
+  hasItems: true
+  flameColor: 5B5B5B
+  category: crafting
+  research: graphite-press
+  buildCostMultiplier: 0.5
+}
