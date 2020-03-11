@@ -1,6 +1,6 @@
 {
   type: GenericSmelter
-  name: Steel
+  name: Steelworks
   description: Provides steel.This factory is very important.Spends much water.
   health: 300
   size: 2
@@ -11,7 +11,7 @@
     lead/100
     graphite/50
   ]
-  cosumes:
+  consume:
   {
     items: [
       refined-iron/1

@@ -11,7 +11,7 @@
     lead/10
     graphite/20
   ]
-  cosumes:
+  consume:
   {
     items: [
       coal/5

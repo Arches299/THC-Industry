@@ -1,0 +1,29 @@
+{
+  type: GenericCrafter
+  name: Concrete freezer
+  description: Makes liquid concrete into solid concrete.
+  health: 150
+  size: 2
+  requirements:
+  [
+    refined-iron/10
+    copper/10
+    graphite/10
+    wood/10
+  ]
+  consume:
+  {
+    liquid: concrete/0.1
+  }
+  power: {
+    usage: 5.0
+    buffered: false
+  }
+  craftTime: 10
+  outputItem: solid-concrete/6
+  hasLiquid: true
+  hasItems: true
+  category: crafting
+  research: concrete-mixer
+  buildCostMultiplier: 1
+}
