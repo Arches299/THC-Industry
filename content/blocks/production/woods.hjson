@@ -8,7 +8,7 @@
   [
     copper/50
   ]
-  cosumes:
+  consumes:
   {
     liquid: {
       liquid: water

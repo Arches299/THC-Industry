@@ -1,6 +1,6 @@
 {
   type: Wall
-  name: Refined iron wall
+  name: Large refined iron wall
   description: A wall made by refined iron.A little stronger than thorium wall.Build quicker than you imagine.
   health: 3520
   size: 2

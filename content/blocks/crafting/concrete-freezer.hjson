@@ -12,14 +12,14 @@
     plank/10
   ]
   consumes: {
-    liquid: concrete/0.1
+    liquid: concrete/0.3
     power: {
      usage: 0.1
      buffered: false
     }
   }
   craftTime: 10
-  outputItem: solid-concrete/6
+  outputItem: solid-concrete/1
   hasLiquid: true
   hasItems: true
   category: crafting

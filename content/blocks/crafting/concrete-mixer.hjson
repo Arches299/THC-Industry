@@ -25,9 +25,10 @@
      buffered:false
     }
   }
-  craftTime: 60
+  craftTime: 120
   outputLiquid: concrete/6
   hasItems: true
+  itemCapacity: 20
   flameColor: 5B5B5B
   category: crafting
   research: iron-refiner

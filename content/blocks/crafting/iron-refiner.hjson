@@ -25,7 +25,7 @@
     buffered: false
    }
   }
-  craftTime: 360
+  craftTime: 150
   outputItem: refined-iron/1
   hasItems: true
   flameColor: 5B5B5B

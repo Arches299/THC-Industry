@@ -27,6 +27,7 @@
   craftTime: 60
   outputItem: refined-carbon/1
   hasItems: true
+  itemCapacity: 20
   flameColor: 5B5B5B
   category: crafting
   research: graphite-press

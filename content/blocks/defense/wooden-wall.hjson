@@ -8,18 +8,15 @@
   [
     plank/6
   ]
-  power: {
-    usage: 0
-    buffered: false
-  }
+  consumesPower: false
   category: defense
   research: woods
   buildCostMultiplier: 0.1
+  range: 4
   reload: 60
   healPercent: 20
   phaseBoost: 0
   phaseRangeBoost: 0
-  range: 1
   color: C9631A
   solid: true
   insulated: true
