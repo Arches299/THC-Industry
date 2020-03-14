@@ -17,7 +17,7 @@
     }
   }
   craftTime: 120
-  outputItem: wood/1
+  outputItem: plank/1
   hasItems: true
   category: crafting
   research: graphite-press

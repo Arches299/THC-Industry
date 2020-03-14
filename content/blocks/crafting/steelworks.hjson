@@ -11,17 +11,20 @@
     lead/100
     graphite/50
   ]
-  consume:
-  {
+  consumes: {
+   items: {
     items: [
       refined-iron/1
-      coal/2
+      refined-carbon/2
     ]
-    liquid: water/0.25
-  }
-  power: {
-    usage: 30.0
+    optional: false
+    booster: false
+   }
+   liquid: water/0.25
+   power: {
+    usage: 1
     buffered: false
+   }
   }
   craftTime: 120
   outputItem: steel/1

@@ -6,24 +6,26 @@
   size: 2
   requirements:
   [
-    wood/30
+    plank/30
     copper/100
     lead/10
     graphite/20
   ]
-  consume:
+  consumes:
   {
+   items: {
     items: [
-      iron/5
+      iron-ore/5
     ]
-    optional: true
-  }
-  power: {
-    usage: 15.0
-    capacity: 90.0
+    optional: false
+    booster: false
+   }
+   power: {
+    usage: 0.3
     buffered: false
-    }
-  craftTime: 600
+   }
+  }
+  craftTime: 360
   outputItem: refined-iron/1
   hasItems: true
   flameColor: 5B5B5B

@@ -3,6 +3,6 @@
   name: Refined iron
   descrption: Refined iron.
   color: 3B3B3B
-  flammability: 0.5
   radioactivity: 0
+  cost: 4
 }

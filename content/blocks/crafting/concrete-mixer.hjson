@@ -10,17 +10,20 @@
     copper/30
     graphite/30
   ]
-  consume:
-  {
+  consumes: {
+   items: {
     items: [
       sand/4
       iron-ore/1
     ]
+    optional: false
+    booster: false
+   }
     liquid: water/0.1
-  }
-  power: {
-    usage: 30.0
-    buffered: false
+    power: {
+     usage: 0.5
+     buffered:false
+    }
   }
   craftTime: 60
   outputLiquid: concrete/6
